@@ -1,0 +1,56 @@
+document.getElementById("1").onclick=function(){
+    document.getElementById("read").innerHTML+=document.getElementById("read").innerHTML="1";
+}
+document.getElementById("2").onclick=function(){
+    document.getElementById("read").innerHTML+=document.getElementById("read").innerHTML="2";
+}
+document.getElementById("3").onclick=function(){
+    document.getElementById("read").innerHTML+=document.getElementById("read").innerHTML="3";
+}
+document.getElementById("4").onclick=function(){
+    document.getElementById("read").innerHTML+=document.getElementById("read").innerHTML="4";
+}
+document.getElementById("5").onclick=function(){
+    document.getElementById("read").innerHTML+=document.getElementById("read").innerHTML="5";
+}
+document.getElementById("6").onclick=function(){
+    document.getElementById("read").innerHTML+=document.getElementById("read").innerHTML="6";
+}
+document.getElementById("7").onclick=function(){
+    document.getElementById("read").innerHTML+=document.getElementById("read").innerHTML="7";
+}
+document.getElementById("8").onclick=function(){
+    document.getElementById("read").innerHTML+=document.getElementById("read").innerHTML="8";
+}
+document.getElementById("9").onclick=function(){
+    document.getElementById("read").innerHTML+=document.getElementById("read").innerHTML="9";
+}
+document.getElementById("+").onclick=function(){
+    document.getElementById("read").innerHTML+=document.getElementById("read").innerHTML="+";
+}
+document.getElementById("-").onclick=function(){
+    document.getElementById("read").innerHTML+=document.getElementById("read").innerHTML="-";
+}
+document.getElementById("/").onclick=function(){
+    document.getElementById("read").innerHTML+=document.getElementById("read").innerHTML="/";
+}
+document.getElementById("*").onclick=function(){
+    document.getElementById("read").innerHTML+=document.getElementById("read").innerHTML="*";
+}
+document.getElementById("%").onclick=function(){
+    document.getElementById("read").innerHTML+=document.getElementById("read").innerHTML="%";
+}
+document.getElementById("=").onclick=function(){
+    document.getElementById("read").innerHTML=eval(document.getElementById("read").innerHTML);
+}
+document.getElementById("virgul").onclick=function(){
+    document.getElementById("read").innerHTML+=document.getElementById("read").innerHTML=".";
+}
+document.getElementById("c").onclick=function(){
+    document.getElementById("read").innerHTML="";
+}
+document.getElementById("sil").onclick=function(){
+    document.getElementById("read").innerHTML=document.getElementById("read").innerHTML.substr(0,document.getElementById("read").innerHTML.length-1);
+}
+    
+
